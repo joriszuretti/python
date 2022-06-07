@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T14:21:04.623Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" version="18.1.2" etag="WCMiGNfNhnaQ4WYe_V82" type="github"><diagram id="zqsO_YHbKvHuGJDpJCHv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-07T09:03:09.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Ki2_05aPMex6v0-AHbgP" version="18.2.0" type="github">
+  <diagram id="zqsO_YHbKvHuGJDpJCHv" name="Page-1">
+    <mxGraphModel dx="1053" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Pr-eQBJBQjtEA0vqFEUv-1" value="Vision" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-eQBJBQjtEA0vqFEUv-2" value="PROGRAMME PYTHON [PC]" style="text;strokeColor=#000000;fillColor=#E6E6E6;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=10;labelBackgroundColor=none;fontColor=#333333;" vertex="1" parent="Pr-eQBJBQjtEA0vqFEUv-1">
+          <mxGeometry y="30" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-eQBJBQjtEA0vqFEUv-3" value="Transmet les informations sur l&#39;état du jeu" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;" vertex="1" parent="Pr-eQBJBQjtEA0vqFEUv-1">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-eQBJBQjtEA0vqFEUv-5" value="&quot;IA&quot;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-eQBJBQjtEA0vqFEUv-6" value="PROGRAMME C# [PC]" style="text;strokeColor=#000000;fillColor=#E6E6E6;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=10;labelBackgroundColor=none;fontColor=#333333;" vertex="1" parent="Pr-eQBJBQjtEA0vqFEUv-5">
+          <mxGeometry y="30" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-eQBJBQjtEA0vqFEUv-7" value="Calcul le meilleur coup à réaliser en fonction de l&#39;état du jeu" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;" vertex="1" parent="Pr-eQBJBQjtEA0vqFEUv-5">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-eQBJBQjtEA0vqFEUv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF0000;" edge="1" parent="1" source="Pr-eQBJBQjtEA0vqFEUv-2" target="Pr-eQBJBQjtEA0vqFEUv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-eQBJBQjtEA0vqFEUv-11" value="Conversion" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-eQBJBQjtEA0vqFEUv-12" value="PROGRAMME PYTHON [PC]" style="text;strokeColor=#000000;fillColor=#E6E6E6;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=10;labelBackgroundColor=none;fontColor=#333333;" vertex="1" parent="Pr-eQBJBQjtEA0vqFEUv-11">
+          <mxGeometry y="30" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-eQBJBQjtEA0vqFEUv-13" value="Convertit en coordonnées (x, y) le meilleur coup à réaliser : point de prise et de pose de la pièce" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;" vertex="1" parent="Pr-eQBJBQjtEA0vqFEUv-11">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-eQBJBQjtEA0vqFEUv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF0000;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="Pr-eQBJBQjtEA0vqFEUv-6" target="Pr-eQBJBQjtEA0vqFEUv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-eQBJBQjtEA0vqFEUv-15" value="Transmission" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="760" y="120" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-eQBJBQjtEA0vqFEUv-16" value="PROGRAMME PYTHON [PC]" style="text;strokeColor=#000000;fillColor=#E6E6E6;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=10;labelBackgroundColor=none;fontColor=#333333;" vertex="1" parent="Pr-eQBJBQjtEA0vqFEUv-15">
+          <mxGeometry y="30" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-eQBJBQjtEA0vqFEUv-17" value="Transmet les données de coordonnées au contrôleur" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;" vertex="1" parent="Pr-eQBJBQjtEA0vqFEUv-15">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Pr-eQBJBQjtEA0vqFEUv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF0000;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="Pr-eQBJBQjtEA0vqFEUv-12" target="Pr-eQBJBQjtEA0vqFEUv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
